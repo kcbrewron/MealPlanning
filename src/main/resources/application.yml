@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: kcbrewron-mealplanning
+  datasource:
+    dbcp2:
+      driver: org.hsqldb.jdbcDriver
+      url: jdbc:hsqldb:mem:testdb
+      user: kcbrewron
+      password: "#2468EarlyInTheMorning"
+  jpa:
+    database: H2
+    hibernate:  
+      dialect: org.hibernate.dialect.HSQLDialect
+      ddl-auto: create
+      
+        
